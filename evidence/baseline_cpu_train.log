@@ -1,0 +1,49 @@
+{"step": 100, "loss": 5.931267261505127, "seconds": 30.240818399999625}
+{"step": 200, "loss": 5.241191864013672, "seconds": 64.35054189999937}
+{"step": 300, "loss": 4.939333438873291, "seconds": 96.02342619999945}
+{"step": 400, "loss": 4.678946018218994, "seconds": 126.00127840000005}
+{"step": 500, "loss": 4.665628910064697, "seconds": 155.5921443999996}
+{"step": 600, "loss": 4.527518272399902, "seconds": 188.79357339999933}
+{"step": 700, "loss": 4.438354969024658, "seconds": 224.7852452999996}
+{"step": 800, "loss": 4.458527088165283, "seconds": 254.82304289999956}
+{"step": 900, "loss": 4.380015850067139, "seconds": 283.8817380999999}
+{"step": 1000, "loss": 4.35355806350708, "seconds": 312.51110189999963}
+{"step": 1100, "loss": 4.315099716186523, "seconds": 347.33349889999954}
+{"step": 1200, "loss": 4.316904544830322, "seconds": 376.27247439999974}
+{
+  "protocol": "7506-mp1-wt2-v2",
+  "implementation": "model",
+  "config": {
+    "vocab": 2048,
+    "width": 128,
+    "heads": 4,
+    "depth": 4,
+    "context": 256
+  },
+  "seed": 17,
+  "parameters": 1088256,
+  "precision": "fp32",
+  "train_tokens": 9830400,
+  "preparation_seconds": 10.031562699999995,
+  "train_seconds": 376.27257239999926,
+  "validation": {
+    "bpb": 2.0710833229009737,
+    "token_ppl": 79.52820796614101,
+    "nll_nats": 1648039.3186965773,
+    "targets": 376599,
+    "utf8_bytes": 1148007,
+    "seconds": 6.432781999999861
+  },
+  "history": [],
+  "validation_history": [],
+  "intermediate_validation_seconds": 0.0,
+  "process_seconds": 392.7627093000001,
+  "torch_version": "2.7.1+cu126",
+  "threads": 4,
+  "checkpoint_sha256": "d195f9eec6377363f3af7b9ca36c63769be8d0403b0dc1132f0672cf50e95dc2",
+  "implementation_sha256": "6cce142a31d396f017319543f50d70f30fa6da740729af01c8baed13c6f671f9",
+  "device": "cpu",
+  "device_name": "CPU",
+  "peak_allocated_gb": 0.0,
+  "peak_reserved_gb": 0.0
+}

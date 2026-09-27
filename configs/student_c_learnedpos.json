@@ -1,0 +1,13 @@
+{
+  "vocab": 2048,
+  "context": 256,
+  "norm": "rmsnorm",
+  "pos": "learned",
+  "mlp": "swiglu",
+  "mlp_ratio": 2.6666666666666665,
+  "dropout": 0.1,
+  "tie": true,
+  "width": 256,
+  "heads": 4,
+  "depth": 6
+}
